@@ -1,0 +1,14 @@
+/*Crear Proyecto */
+ng new Proyecto
+
+/*Instalar dependencias 
+npm install
+
+/*Crear componente*/
+ng g c ListarPaises
+
+/*Crear servicio */
+ng g s pais
+
+/*levantar el proyecto*/
+ng serve

@@ -1,0 +1,9 @@
+<h1> Hola soy el listado de paises</h1>
+
+<div class="container">
+    <div *ngFor="let pais of listapaises">
+        {{ pais.name }}  
+        <br>
+        <img [src]="pais.flags.png" alt=""> 
+    </div>
+</div>
